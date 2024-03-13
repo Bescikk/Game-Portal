@@ -20,7 +20,7 @@ public class GamesInfoApplication {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
 				registry.addMapping("/**")
-						.allowedOrigins("http://localhost:3000")
+						.allowedOrigins("https://fanciful-squirrel-ec6e59.netlify.app")
 						.allowedMethods("GET", "POST", "PUT", "DELETE");
 			}
 		};
